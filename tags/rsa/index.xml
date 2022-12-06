@@ -13,7 +13,7 @@
         
         <guid>https://example.com/p/more-effort-writeup-tuctf/</guid>
         <description>&lt;img src="https://example.com/p/more-effort-writeup-tuctf/coverMoreEffort2.png" alt="Featured image of post  More Effort Writeup | TUCTF" /&gt;&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
-&lt;p&gt;In this challenge we can obtain the value of &lt;em&gt;s&lt;/em&gt; in a fast way (8 seconds) applying Fermat&amp;rsquo;s little theorem. It is necessary to adapt our case to be able to use it.&lt;/p&gt;
+&lt;p&gt;In this challenge we can obtain the value of &lt;em&gt;s&lt;/em&gt; in a fast way (8 seconds) by applying Fermat&amp;rsquo;s little theorem. It is necessary to adapt our case to be able to use it.&lt;/p&gt;
 &lt;h2 id=&#34;challenge-description&#34;&gt;Challenge description&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;I have designed a revised RSA algorithm which I believe it’s more secure. I am confident you cannot compromise my message with the p value. Meanwhile, it’s time-consuming to complete the encryption. You may need more effort to brute force it as it takes much longer to complete the encryption.&lt;/p&gt;
@@ -119,7 +119,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;n&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;As you can see, we have the value of &lt;em&gt;p&lt;/em&gt;, &lt;em&gt;e&lt;/em&gt; and &lt;em&gt;c&lt;/em&gt;, but we do not have &lt;em&gt;n&lt;/em&gt;. If we look at it, we can see that it generates &lt;em&gt;s&lt;/em&gt; by doing 18000000 powers and gets &lt;em&gt;q&lt;/em&gt; thanks to the value of &lt;em&gt;s&lt;/em&gt;.
+&lt;/div&gt;&lt;p&gt;As you can see, we have the value of &lt;em&gt;p&lt;/em&gt;, &lt;em&gt;e&lt;/em&gt;, and &lt;em&gt;c&lt;/em&gt;, but we do not have &lt;em&gt;n&lt;/em&gt;. If we look at it, we can see that it generates &lt;em&gt;s&lt;/em&gt; by doing 18000000 powers and gets &lt;em&gt;q&lt;/em&gt; thanks to the value of &lt;em&gt;s&lt;/em&gt;.
 Therefore, we have to try to get the value of &lt;em&gt;s&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;mathematical-approach&#34;&gt;Mathematical approach&lt;/h2&gt;
 &lt;p&gt;The goal is to reduce the time required to calculate &lt;em&gt;s&lt;/em&gt;.&lt;/p&gt;

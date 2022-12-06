@@ -345,7 +345,7 @@
     
     
     <h1 id="tldr">TL;DR</h1>
-<p>In this challenge we can obtain the value of <em>s</em> in a fast way (8 seconds) applying Fermat&rsquo;s little theorem. It is necessary to adapt our case to be able to use it.</p>
+<p>In this challenge we can obtain the value of <em>s</em> in a fast way (8 seconds) by applying Fermat&rsquo;s little theorem. It is necessary to adapt our case to be able to use it.</p>
 <h2 id="challenge-description">Challenge description</h2>
 <blockquote>
 <p>I have designed a revised RSA algorithm which I believe it’s more secure. I am confident you cannot compromise my message with the p value. Meanwhile, it’s time-consuming to complete the encryption. You may need more effort to brute force it as it takes much longer to complete the encryption.</p>
@@ -451,7 +451,7 @@
 </span></span><span class="line"><span class="cl">	<span class="n">main</span><span class="p">()</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>As you can see, we have the value of <em>p</em>, <em>e</em> and <em>c</em>, but we do not have <em>n</em>. If we look at it, we can see that it generates <em>s</em> by doing 18000000 powers and gets <em>q</em> thanks to the value of <em>s</em>.
+</div><p>As you can see, we have the value of <em>p</em>, <em>e</em>, and <em>c</em>, but we do not have <em>n</em>. If we look at it, we can see that it generates <em>s</em> by doing 18000000 powers and gets <em>q</em> thanks to the value of <em>s</em>.
 Therefore, we have to try to get the value of <em>s</em>.</p>
 <h2 id="mathematical-approach">Mathematical approach</h2>
 <p>The goal is to reduce the time required to calculate <em>s</em>.</p>

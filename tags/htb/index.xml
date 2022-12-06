@@ -13,7 +13,7 @@
         
         <guid>https://example.com/p/fast-carmichael-writeup-hack-the-boo/</guid>
         <description>&lt;img src="https://example.com/p/fast-carmichael-writeup-hack-the-boo/CarmichaelCover.jpg" alt="Featured image of post Fast Carmichael Writeup | Hack The Boo" /&gt;&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
-&lt;p&gt;In order to get the flag, we have to get a number that when we pass it to the Miller Rabin primality test, it returns that it is not prime and, if we pass it to the isPrime function of the &lt;em&gt;Crypto.Util.number&lt;/em&gt; library, it tells us that it is prime. Therefore, we have to fool the Miller Rabin algorithm. To do this, we can use Carmichael&amp;rsquo;s numbers.&lt;/p&gt;
+&lt;p&gt;To obtain the flag, we have to get a number that when we pass it to the Miller Rabin primality test, returns that it is not prime and if we pass it to the isPrime function of the &lt;em&gt;Crypto.Util.number&lt;/em&gt; library, it tells us that it is prime. Thus, we have to fool the Miller Rabin algorithm. To do this, we can use Carmichael&amp;rsquo;s numbers.&lt;/p&gt;
 &lt;h2 id=&#34;code-analysis&#34;&gt;Code analysis&lt;/h2&gt;
 &lt;p&gt;First of all, it is important to understand the source code&lt;/p&gt;
 &lt;p&gt;Source code:&lt;/p&gt;
