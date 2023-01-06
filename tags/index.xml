@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Tags on DiegoAltF4&#39;s blog</title>
+        <title>Tags on DiegoAltF4 Blog</title>
         <link>https://example.com/tags/</link>
-        <description>Recent content in Tags on DiegoAltF4&#39;s blog</description>
+        <description>Recent content in Tags on DiegoAltF4 Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Fermat&#39;s little theorem</title>
+        <link>https://example.com/tags/fermats-little-theorem/</link>
+        <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/fermats-little-theorem/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Maths</title>
         <link>https://example.com/tags/maths/</link>
         <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
@@ -23,11 +31,27 @@
         <description></description>
         </item>
         <item>
+        <title>Coppersmith&#39;s attack</title>
+        <link>https://example.com/tags/coppersmiths-attack/</link>
+        <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/coppersmiths-attack/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>HTB</title>
         <link>https://example.com/tags/htb/</link>
-        <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 02 Dec 2022 00:00:00 +0000</pubDate>
         
         <guid>https://example.com/tags/htb/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Carmichael’s numbers</title>
+        <link>https://example.com/tags/carmichaels-numbers/</link>
+        <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/tags/carmichaels-numbers/</guid>
         <description></description>
         </item>
         <item>

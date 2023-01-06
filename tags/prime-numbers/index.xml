@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Prime Numbers on DiegoAltF4&#39;s blog</title>
+        <title>Prime Numbers on DiegoAltF4 Blog</title>
         <link>https://example.com/tags/prime-numbers/</link>
-        <description>Recent content in Prime Numbers on DiegoAltF4&#39;s blog</description>
+        <description>Recent content in Prime Numbers on DiegoAltF4 Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Fri, 28 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/prime-numbers/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Fast Carmichael Writeup | Hack The Boo</title>
-        <link>https://example.com/p/fast-carmichael-writeup-hack-the-boo/</link>
+        <link>https://example.com/post/fast-carmichael-writeup-hack-the-boo/</link>
         <pubDate>Fri, 28 Oct 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://example.com/p/fast-carmichael-writeup-hack-the-boo/</guid>
-        <description>&lt;img src="https://example.com/p/fast-carmichael-writeup-hack-the-boo/CarmichaelCover.jpg" alt="Featured image of post Fast Carmichael Writeup | Hack The Boo" /&gt;&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
+        <guid>https://example.com/post/fast-carmichael-writeup-hack-the-boo/</guid>
+        <description>&lt;img src="https://example.com/post/fast-carmichael-writeup-hack-the-boo/CarmichaelCover.jpg" alt="Featured image of post Fast Carmichael Writeup | Hack The Boo" /&gt;&lt;h1 id=&#34;tldr&#34;&gt;TL;DR&lt;/h1&gt;
 &lt;p&gt;To obtain the flag, we have to get a number that when we pass it to the Miller Rabin primality test, returns that it is not prime and if we pass it to the isPrime function of the &lt;em&gt;Crypto.Util.number&lt;/em&gt; library, it tells us that it is prime. Thus, we have to fool the Miller Rabin algorithm. To do this, we can use Carmichael&amp;rsquo;s numbers.&lt;/p&gt;
 &lt;h2 id=&#34;code-analysis&#34;&gt;Code analysis&lt;/h2&gt;
 &lt;p&gt;First of all, it is important to understand the source code&lt;/p&gt;

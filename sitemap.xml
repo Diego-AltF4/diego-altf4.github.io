@@ -5,19 +5,22 @@
     <loc>https://example.com/</loc>
     <lastmod>2022-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/about/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://example.com/page/</loc>
     <lastmod>2022-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/more-effort-writeup-tuctf/</loc>
+    <loc>https://example.com/whoami/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/more-effort-writeup-tuctf/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/categories/cryptography/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/fermats-little-theorem/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/maths/</loc>
@@ -32,16 +35,25 @@
     <loc>https://example.com/tags/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/fast-carmichael-writeup-hack-the-boo/</loc>
-    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+    <loc>https://example.com/post/bank-er-smith-writeup-hack-the-box-uni-ctf/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/coppersmiths-attack/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/htb/</loc>
+    <lastmod>2022-12-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/tags/carmichaels-numbers/</loc>
+    <lastmod>2022-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://example.com/post/fast-carmichael-writeup-hack-the-boo/</loc>
     <lastmod>2022-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/prime-numbers/</loc>
     <lastmod>2022-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/p/spooky-rsa-writeup-hack-the-boo/</loc>
+    <loc>https://example.com/post/spooky-rsa-writeup-hack-the-boo/</loc>
     <lastmod>2022-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://example.com/archives/</loc>
