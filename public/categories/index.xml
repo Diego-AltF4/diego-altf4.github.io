@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on DiegoAltF4 Blog</title>
+        <link>https://example.com/categories/</link>
+        <description>Recent content in Categories on DiegoAltF4 Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cryptography</title>
+        <link>https://example.com/categories/cryptography/</link>
+        <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/categories/cryptography/</guid>
+        <description>&lt;img src="https://example.com/categories/cryptography/coverCrypto.jpg" alt="Featured image of post Cryptography" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
